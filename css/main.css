@@ -257,3 +257,11 @@ hr {
     box-sizing: border-box;
     padding: 1%;
 }
+
+/*StyleФормы*/
+
+form {
+    width: 60%;
+    margin-left: 20%;
+    float: left;
+}
