@@ -258,10 +258,56 @@ hr {
     padding: 1%;
 }
 
-/*StyleФормы*/
+/*Style Формы*/
 
 form {
     width: 60%;
     margin-left: 20%;
     float: left;
+}
+
+form label {
+    float: left;
+    width: 100%;
+    margin-bottom: 10px; 
+}
+
+form input {
+    border-radius: 5px;
+    border: 2px solid silver;
+    padding: 5px;
+    float: left;
+    clear: both;
+    width: 40%;
+    margin-bottom: 10px;
+
+}
+
+form #send {
+    float: left;
+    padding: 10px;
+    background-color: #e94e4e;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    font-size: 2em;
+    color: #fff;
+
+}
+
+form #send:hover {
+    background-color: #7feb7f;
+}
+
+form input:focus, form textarea:focus {border: 2px solid #f58b8b}
+
+form textarea {
+    width: 60%;
+    float: left;
+    clear: both;
+    background-color: #fafafa;
+    border: 2px solid silver;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1.7em;
 }
